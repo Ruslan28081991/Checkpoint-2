@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-    margin-top: 45px;
+    margin-bottom: 30px;
     width: 956px;
     font-size: 60px;
     font-weight: 400;
@@ -29,7 +29,6 @@ h1 {
 }
 
 .interior__img {
-    margin-top: 30px;
     position: relative;
     width: 1150px;
     height: 500px;
@@ -53,8 +52,8 @@ h1 {
 }
 
 .about__title {
-    font-size: 18px;
-    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 14px;
     line-height: 25px;
     letter-spacing: -0.03em;
     text-align: left;
@@ -62,7 +61,7 @@ h1 {
 }
 
 .about__text {
-    margin-top: 30px;
+    margin-bottom: 30px;
     width: 1048px;
     font-size: 45px;
     font-weight: 400;
@@ -72,7 +71,6 @@ h1 {
 }
 
 .about__btn {
-    margin-top: 30px;
     display: inline-block;
     padding: 24px 40px;
     font-size: 20px;
@@ -94,30 +92,32 @@ h1 {
 }
 
 .projects__title {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 14px;
     line-height: normal;
     letter-spacing: -0.54px;
     text-transform: uppercase;
     color: #121212
 }
 
+.project__box {
+    margin-bottom: 69px;
+}
+
 .project__image {
-    margin-top: 30px;
+    margin-bottom: 20px;
     width: 1150px;
     height: 450px;
 }
 
 .project__title {
-    margin-top: 20px;
     font-size: 30px;
     letter-spacing: -0.9px;
     color: #121212;
 }
 
 .project__details {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 66px;
     letter-spacing: -0.6px;
     color: var(--Accent, #AD1818);
@@ -125,13 +125,12 @@ h1 {
 }
 
 .project__images {
-    margin-top: 70px;
+    margin-bottom: 20px;
     width: 1150px;
     height: 450px;
 }
 
 .project__btn {
-    margin-top: 70px;
     padding: 58px 0;
     width: 1150px;
     color: var(--Accent, #AD1818);
@@ -156,6 +155,7 @@ h1 {
 }
 
 .services__title {
+    margin-bottom: 35px;
     color: #FFF;
     font-size: 18px;
     line-height: normal;
@@ -164,24 +164,25 @@ h1 {
 }
 
 .service__box {
-    margin-top: 35px;
+    margin-bottom: 65px;
 }
 
 .service__image {
+    margin-bottom: 20px;
     width: 100%;
     height: 270px;
     flex-shrink: 0;
 }
 
 .service__title {
-    margin-top: 20px;
+
     color: #FFF;
     font-size: 30px;
     letter-spacing: -0.62px;
 }
 
 .service__images {
-    margin-top: 30px;
+    margin-bottom: 20px;
     width: 100%;
     height: 270px;
 }
