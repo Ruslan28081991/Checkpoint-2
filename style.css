@@ -28,6 +28,13 @@ h1 {
     margin-bottom: 150px;
 }
 
+.interior__img {
+    position: relative;
+    width: 1150px;
+    height: 500px;
+    background: url('image/interior.png');
+}
+
 .interior__title {
     position: absolute;
     left: 40px;
