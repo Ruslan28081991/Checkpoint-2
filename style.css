@@ -24,9 +24,9 @@ body {
 }
 
 .navigation__buttons {
-    width: 490px;
+    width: 440px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .navigation__btn {
@@ -128,7 +128,7 @@ h1 {
     color: #121212
 }
 
-.project__box {
+.project__container {
     margin-bottom: 70px;
 }
 
@@ -138,7 +138,7 @@ h1 {
     height: 450px;
 }
 
-.project__title {
+.project__text {
     font-size: 30px;
     letter-spacing: -0.9px;
     color: #121212;
@@ -150,12 +150,6 @@ h1 {
     letter-spacing: -0.6px;
     color: var(--Accent, #AD1818);
     text-decoration: none;
-}
-
-.project__images {
-    margin-bottom: 20px;
-    width: 1150px;
-    height: 450px;
 }
 
 .project__btn {
@@ -222,7 +216,7 @@ h1 {
     margin-bottom: 185px;
 }
 
-.decor__box {
+.decor__container {
     height: 717px;
     position: relative;
 }
