@@ -179,7 +179,7 @@ h1 {
 }
 
 .services {
-    padding: 140px 110px;
+    padding: 140px 0;
     height: 1600px;
     width: 100%;
     background-color: var(--Text, #121212);
@@ -195,37 +195,46 @@ h1 {
 }
 
 .services__container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 .service__box {
-    margin-bottom: 70px;
-    width: calc(50% - 10px);
-}
-
-.service__box:nth-last-child(3) {
-    margin-bottom: 90px;
+    display: inline-block;
+    position: relative;
 }
 
 .service__image {
-    margin-bottom: 10px;
     width: 100%;
     height: 390px;
-    flex-shrink: 0;
+}
+
+.service__span {
+    padding: 6px 20px;
+    border-radius: 5px;
+    background: #AD1818;
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.service__box-span {
+    position: absolute;
+    z-index: 1;
+    bottom: 86%;
+    left: 5%;
 }
 
 .service__title {
+    padding: 25px 0;
+    width: 50%;
     color: #FFF;
     font-size: 30px;
     letter-spacing: -0.62px;
-}
-
-.service__images {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 270px;
+    line-height: 40px;
 }
 
 .service__btn {
@@ -243,7 +252,6 @@ h1 {
 .service__btn:hover {
     background: #fff;
     color: #AD1818;
-    ;
 }
 
 .decor {
