@@ -10,7 +10,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1150px;
+    max-width: 1180px;
     padding: 0 15px;
 }
 
@@ -85,7 +85,6 @@ h1 {
     font-size: 18px;
     line-height: 25px;
     letter-spacing: -0.03em;
-    text-align: left;
     text-transform: uppercase;
 }
 
@@ -95,7 +94,6 @@ h1 {
     font-size: 45px;
     line-height: 61px;
     letter-spacing: -0.03em;
-    text-align: left;
 }
 
 .about__btn {
