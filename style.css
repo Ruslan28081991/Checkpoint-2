@@ -24,7 +24,7 @@ body {
 }
 
 .navigation__buttons {
-    width: 440px;
+    width: 465px;
     display: flex;
     justify-content: space-between;
 }
