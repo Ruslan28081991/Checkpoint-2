@@ -1,0 +1,49 @@
+.about {
+    margin-bottom: 150px;
+}
+
+.about__title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.about__text {
+    margin-bottom: 30px;
+    width: 93%;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+}
+
+.about__btn {
+    display: inline-block;
+    padding: 24px 40px;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    background-color: #ad1818;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about__btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+}
+
+@media (max-width: 961px) {
+    .about {
+        margin-bottom: 120px;
+    }
+
+    .about__text {
+        width: 80%;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -0.04em;
+    }
+}

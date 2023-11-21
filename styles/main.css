@@ -1,0 +1,93 @@
+@import "navigation.css";
+@import "interior.css";
+@import "about.css";
+@import "projects.css";
+@import "service.css";
+@import "contacts.css";
+@import "footer.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 15px;
+}
+
+.decor {
+    background-image: url("../image/project.png");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 185px;
+}
+
+.decor__box {
+    height: 717px;
+    position: relative;
+}
+
+.decor__title {
+    position: absolute;
+    bottom: 60px;
+    width: 443px;
+    color: #FFF;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+@media (max-width: 961px) {
+    .container {
+        width: 100%;
+        padding-left: 17px;
+        padding-right: 15px;
+    }
+
+}
+
+
+
+@media (max-width: 575px) {
+    h1 {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .interior {
+        margin-bottom: 50px;
+    }
+
+    .interior__img {
+        width: 100%;
+    }
+
+    .about__text {
+        width: 100%;
+    }
+
+    .project__image {
+        width: 100%;
+    }
+
+    .project__images {
+        width: 100%;
+    }
+
+    .project__btn {
+        width: 100%;
+    }
+
+    .services {
+        padding: 80px 0;
+        height: 100%;
+    }
+}

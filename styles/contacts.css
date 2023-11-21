@@ -1,0 +1,53 @@
+.contacts {
+    margin-bottom: 150px;
+}
+
+.contact__title {
+    margin-bottom: 35px;
+    color: #121212;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.contact__title:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 35px;
+    left: -5px;
+    background-image: url('../image/ic_outline-phone-iphone.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.contact__phone {
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.0px;
+}
+
+.contact__text {
+    color: var(--Text, #121212);
+    text-decoration: none;
+}
+
+.contact__email {
+    margin-bottom: 8px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    opacity: 0.5;
+}
+
+.contact__line {
+    width: 410px;
+    height: 2px;
+    opacity: 0.5;
+    background: var(--Text, #121212);
+}
