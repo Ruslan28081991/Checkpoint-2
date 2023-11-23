@@ -1,28 +1,20 @@
 .contacts {
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
-.contact__title {
-    margin-bottom: 35px;
+.contacts__title {
+    margin-bottom: 75px;
     color: #121212;
     font-size: 18px;
     line-height: normal;
     letter-spacing: -0.54px;
     text-transform: uppercase;
-    position: relative;
 }
 
-.contact__title:before {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 35px;
-    left: -5px;
-    background-image: url('../image/ic_outline-phone-iphone.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 24px;
-    height: 24px;
+.contacts__container {
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
 }
 
 .contact__phone {
@@ -33,16 +25,43 @@
 }
 
 .contact__text {
+    position: relative;
     color: var(--Text, #121212);
     text-decoration: none;
 }
 
+.phone:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 95px;
+    left: -3px;
+    background-image: url('../image/ic_outline-phone-iphone.svg');
+    width: 24px;
+    height: 24px;
+}
+
 .contact__email {
-    margin-bottom: 8px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -1.8px;
-    opacity: 0.5;
+}
+
+.email {
+    margin-bottom: 10px;
+    color: silver;
+}
+
+.email::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 95px;
+    left: -3px;
+    background-image: url('../image/material-symbols_mail-outline-rounded.svg');
+    width: 24px;
+    height: 24px;
+    opacity: 1;
 }
 
 .contact__line {
@@ -50,4 +69,37 @@
     height: 2px;
     opacity: 0.5;
     background: var(--Text, #121212);
+}
+
+@media (max-width: 961px) {
+    .contacts {
+        margin-bottom: 50px;
+    }
+
+    .contacts__container {
+        width: 84%;
+    }
+
+    .contact__phone {
+        font-size: 46px;
+    }
+
+    .phone:before {
+        bottom: 85px;
+        left: -4px;
+    }
+
+    .contact__email {
+        font-size: 46px;
+    }
+
+    .email::before {
+        bottom: 85px;
+        left: -4px;
+    }
+
+    .contact__line {
+        height: 1px;
+        width: 100%;
+    }
 }

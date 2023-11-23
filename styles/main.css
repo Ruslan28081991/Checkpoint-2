@@ -24,11 +24,11 @@ body {
 }
 
 .decor {
+    margin-bottom: 150px;
     background-image: url("../image/project.png");
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 185px;
 }
 
 .decor__box {
@@ -53,6 +53,20 @@ body {
         padding-right: 15px;
     }
 
+    .decor {
+        margin-bottom: 115px;
+    }
+
+    .decor__box {
+        height: 536px;
+    }
+
+    .decor__title {
+        bottom: 80px;
+        left: 35px;
+        width: 40%;
+        font-size: 26px;
+    }
 }
 
 

@@ -1,5 +1,5 @@
 .reviews {
-    margin-bottom: 125px;
+    margin-bottom: 130px;
 }
 
 .reviews__title {
@@ -47,3 +47,38 @@
     line-height: normal;
     letter-spacing: -0.66px;
 }
+
+@media (max-width: 961px) {
+    .reviews {
+        margin-bottom: 90px;
+    }
+
+    .reviews__title {
+        margin-bottom: 30px;
+    }
+
+    .reviews__container {
+        gap: 20px;
+    }
+
+    .reviews__box {
+        width: calc(50% - 15px);
+    }
+
+    .reviews__name {
+        margin-bottom: 25px;
+        font-size: 35px;
+    }
+
+    .reviews__text {
+        font-size: 20px;
+        line-height: initial;
+    }
+
+    .reviews__span {
+        font-size: 20px;
+        line-height: initial;
+    }
+}
+
+@media (max-width: 575px) {}
