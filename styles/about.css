@@ -47,3 +47,21 @@
         letter-spacing: -0.04em;
     }
 }
+
+@media (max-width: 575px) {
+    .about__title {
+        font-size: 22px;
+    }
+
+    .about__text {
+        margin-bottom: 45px;
+        width: 95%;
+        line-height: 45px;
+        letter-spacing: -2.4px;
+    }
+
+    .about__btn {
+        padding: 28px 42px;
+        font-size: 24px;
+    }
+}

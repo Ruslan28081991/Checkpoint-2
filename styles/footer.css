@@ -33,3 +33,21 @@
     letter-spacing: -0.6px;
     opacity: 0.5;
 }
+
+@media (max-width: 575px) {
+    .footer {
+        padding: 44px;
+    }
+
+    .footer__container {
+        width: 400px;
+    }
+
+    .footer__btn {
+        margin-bottom: 60px;
+    }
+
+    .footer__text {
+        letter-spacing: -1.4px;
+    }
+}

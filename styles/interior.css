@@ -55,3 +55,29 @@
         line-height: 26px;
     }
 }
+
+@media (max-width: 575px) {
+    .interior {
+        margin-bottom: 120px;
+    }
+
+    .interior__title {
+        margin-bottom: 36px;
+        width: 90%;
+        line-height: 48px;
+        letter-spacing: -4px;
+    }
+
+    .interior__box {
+        height: 460px;
+        background-position: 35% 10%;
+    }
+
+    .interior__text {
+        left: 30px;
+        bottom: 26px;
+        width: 430px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+    }
+}

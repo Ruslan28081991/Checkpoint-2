@@ -71,6 +71,12 @@
     background: var(--Text, #121212);
 }
 
+@media (max-width: 1100px) {
+    .contacts__container {
+        width: 100%;
+    }
+}
+
 @media (max-width: 961px) {
     .contacts {
         margin-bottom: 50px;
@@ -101,5 +107,61 @@
     .contact__line {
         height: 1px;
         width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .contacts__container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .contact__phone {
+        margin-bottom: 70px;
+    }
+
+    .contacts__container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575px) {
+    .contacts {
+        margin-bottom: 125px;
+    }
+
+    .contacts__title {
+        margin-bottom: 90px;
+        font-size: 22px;
+    }
+
+    .contacts__container {
+        flex-direction: column;
+    }
+
+    .contact__phone {
+        margin-bottom: 95px;
+        font-size: 60px;
+        letter-spacing: -4.8px;
+    }
+
+    .phone:before {
+        bottom: 110px;
+        left: -1px;
+    }
+
+    .contact__email {
+        font-size: 59px;
+        letter-spacing: -4.8px;
+    }
+
+    .email::before {
+        bottom: 105px;
+        left: 4px;
+    }
+
+    .contact__line {
+        width: 80%;
     }
 }

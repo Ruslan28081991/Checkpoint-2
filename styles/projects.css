@@ -78,3 +78,33 @@
         line-height: 60px;
     }
 }
+
+@media (max-width: 575px) {
+    .projects {
+        margin-bottom: 215px;
+    }
+
+    .projects__title {
+        font-size: 22px;
+    }
+
+    .project__img {
+        margin-bottom: 30px;
+        height: 375px;
+    }
+
+    .project__text {
+        margin-bottom: 5px;
+        font-size: 28px;
+        letter-spacing: -1.3px;
+    }
+
+    .project__details {
+        font-size: 24px;
+    }
+
+    .project__btn {
+        padding: 55px 0;
+        font-size: 33px;
+    }
+}

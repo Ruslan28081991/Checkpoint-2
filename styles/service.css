@@ -70,7 +70,7 @@
 
 .service__btn:hover {
     background-color: #FFF;
-    color: #121212;
+    color: #AD1818;
 }
 
 @media (max-width: 961px) {
@@ -98,5 +98,53 @@
         width: 80%;
         font-size: 25px;
         line-height: 35px;
+    }
+}
+
+@media (max-width: 575px) {
+    .services {
+        padding: 120px 0;
+        height: 100%;
+    }
+
+    .services__title {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    .services__container {
+        margin-bottom: 105px;
+        flex-direction: column;
+        row-gap: 105px;
+    }
+
+    .service__box {
+        width: 100%;
+    }
+
+    .service__span {
+        top: 35px;
+        left: 40px;
+        padding: 4px 28px;
+        height: 42px;
+        font-size: 24px;
+    }
+
+    .service__img {
+        margin-bottom: 18px;
+        height: 360px;
+    }
+
+    .service__text {
+        width: 70%;
+        font-size: 30px;
+        letter-spacing: -2.3px;
+        line-height: 26px;
+    }
+
+    .service__btn {
+        font-size: 34px;
+        line-height: normal;
+        letter-spacing: -0.9px;
     }
 }

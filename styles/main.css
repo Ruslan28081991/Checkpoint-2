@@ -72,37 +72,25 @@ body {
 
 
 @media (max-width: 575px) {
-    h1 {
-        margin-bottom: 30px;
-        width: 100%;
+    .container {
+        padding-left: 13px;
+        padding-right: 12px;
     }
 
-    .interior {
-        margin-bottom: 50px;
+    .decor {
+        margin-bottom: 120px;
+        background-position: 45%;
     }
 
-    .interior__img {
-        width: 100%;
+    .decor__box {
+        height: 610px;
     }
 
-    .about__text {
-        width: 100%;
-    }
-
-    .project__image {
-        width: 100%;
-    }
-
-    .project__images {
-        width: 100%;
-    }
-
-    .project__btn {
-        width: 100%;
-    }
-
-    .services {
-        padding: 80px 0;
-        height: 100%;
+    .decor__title {
+        left: 4px;
+        bottom: 89px;
+        width: 410px;
+        font-size: 30px;
+        letter-spacing: -1.7px;
     }
 }
