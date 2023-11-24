@@ -69,8 +69,6 @@ body {
     }
 }
 
-
-
 @media (max-width: 575px) {
     .container {
         padding-left: 13px;
