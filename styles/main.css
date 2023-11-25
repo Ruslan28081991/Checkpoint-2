@@ -1,0 +1,94 @@
+@import "navigation.css";
+@import "interior.css";
+@import "about.css";
+@import "projects.css";
+@import "service.css";
+@import "reviews.css";
+@import "contacts.css";
+@import "footer.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 15px;
+}
+
+.decor {
+    margin-bottom: 150px;
+    background-image: url("../image/project.png");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.decor__box {
+    height: 717px;
+    position: relative;
+}
+
+.decor__title {
+    position: absolute;
+    bottom: 60px;
+    width: 443px;
+    color: #FFF;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+@media (max-width: 961px) {
+    .container {
+        width: 100%;
+        padding-left: 17px;
+        padding-right: 15px;
+    }
+
+    .decor {
+        margin-bottom: 115px;
+    }
+
+    .decor__box {
+        height: 536px;
+    }
+
+    .decor__title {
+        bottom: 80px;
+        left: 35px;
+        width: 40%;
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding-left: 13px;
+        padding-right: 12px;
+    }
+
+    .decor {
+        margin-bottom: 120px;
+        background-position: 45%;
+    }
+
+    .decor__box {
+        height: 610px;
+    }
+
+    .decor__title {
+        left: 4px;
+        bottom: 89px;
+        width: 410px;
+        font-size: 30px;
+        letter-spacing: -1.7px;
+    }
+}

@@ -1,0 +1,150 @@
+.services {
+    margin-bottom: 150px;
+    padding: 150px 0;
+    width: 100%;
+    background-color: var(--Text, #121212);
+}
+
+.services__title {
+    margin-bottom: 35px;
+    color: #FFF;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+.services__container {
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 45px;
+}
+
+.service__box {
+    position: relative;
+    width: calc(50% - 10px);
+}
+
+.service__span {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 5px 20px;
+    height: 40px;
+    border-radius: 5px;
+    background: #AD1818;
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.service__img {
+    margin-bottom: 18px;
+    width: 100%;
+    height: 389px;
+}
+
+.service__text {
+    color: #FFF;
+    width: 50%;
+    font-size: 30px;
+    letter-spacing: -0.62px;
+    line-height: 42px;
+}
+
+.service__btn {
+    width: 100%;
+    height: 153px;
+    border: none;
+    border-radius: 5px;
+    background: #AD1818;
+    color: #FFF;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    cursor: pointer;
+}
+
+.service__btn:hover {
+    background-color: #FFF;
+    color: #AD1818;
+}
+
+@media (max-width: 961px) {
+    .services {
+        margin-bottom: 120px;
+        padding-top: 150px;
+        padding-bottom: 120px;
+    }
+
+    .services__title {
+        margin-bottom: 30px;
+    }
+
+    .services__container {
+        margin-bottom: 80px;
+        row-gap: 85px;
+    }
+
+    .service__img {
+        margin-bottom: 15px;
+        height: 315px;
+    }
+
+    .service__text {
+        width: 80%;
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 575px) {
+    .services {
+        padding: 120px 0;
+        height: 100%;
+    }
+
+    .services__title {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    .services__container {
+        margin-bottom: 105px;
+        flex-direction: column;
+        row-gap: 105px;
+    }
+
+    .service__box {
+        width: 100%;
+    }
+
+    .service__span {
+        top: 35px;
+        left: 40px;
+        padding: 4px 28px;
+        height: 42px;
+        font-size: 24px;
+    }
+
+    .service__img {
+        margin-bottom: 18px;
+        height: 360px;
+    }
+
+    .service__text {
+        width: 70%;
+        font-size: 30px;
+        letter-spacing: -2.3px;
+        line-height: 26px;
+    }
+
+    .service__btn {
+        font-size: 34px;
+        line-height: normal;
+        letter-spacing: -0.9px;
+    }
+}
