@@ -34,8 +34,8 @@
     content: '';
     display: block;
     position: absolute;
-    bottom: 95px;
-    left: -3px;
+    bottom: 97px;
+    left: -5px;
     background-image: url('../image/ic_outline-phone-iphone.svg');
     width: 24px;
     height: 24px;
@@ -43,12 +43,13 @@
 
 .contact__email {
     font-size: 60px;
-    line-height: 60px;
+    line-height: 40px;
     letter-spacing: -1.8px;
 }
 
 .email {
     margin-bottom: 10px;
+    border-bottom: 2px solid silver;
     color: silver;
 }
 
@@ -56,19 +57,12 @@
     content: '';
     display: block;
     position: absolute;
-    bottom: 95px;
+    bottom: 86px;
     left: -3px;
     background-image: url('../image/material-symbols_mail-outline-rounded.svg');
     width: 24px;
     height: 24px;
     opacity: 1;
-}
-
-.contact__line {
-    width: 410px;
-    height: 2px;
-    opacity: 0.5;
-    background: var(--Text, #121212);
 }
 
 @media (max-width: 1100px) {
@@ -79,7 +73,7 @@
 
 @media (max-width: 961px) {
     .contacts {
-        margin-bottom: 50px;
+        margin-bottom: 55px;
     }
 
     .contacts__container {
@@ -100,14 +94,10 @@
     }
 
     .email::before {
-        bottom: 85px;
+        bottom: 72px;
         left: -4px;
     }
 
-    .contact__line {
-        height: 1px;
-        width: 100%;
-    }
 }
 
 @media (max-width: 850px) {
@@ -128,7 +118,7 @@
 
 @media (max-width: 575px) {
     .contacts {
-        margin-bottom: 125px;
+        margin-bottom: 140px;
     }
 
     .contacts__title {
@@ -136,32 +126,29 @@
         font-size: 22px;
     }
 
-    .contacts__container {
-        flex-direction: column;
-    }
-
     .contact__phone {
-        margin-bottom: 95px;
+        margin-bottom: 105px;
         font-size: 60px;
         letter-spacing: -4.8px;
     }
 
     .phone:before {
-        bottom: 110px;
-        left: -1px;
+        bottom: 105px;
+        left: -3px;
     }
 
     .contact__email {
-        font-size: 59px;
+        font-size: 58px;
         letter-spacing: -4.8px;
     }
 
-    .email::before {
-        bottom: 105px;
-        left: 4px;
+    .email {
+        color: #121212;
+        border-bottom: none;
     }
 
-    .contact__line {
-        width: 80%;
+    .email::before {
+        bottom: 104px;
+        left: 2px;
     }
 }

@@ -6,13 +6,14 @@
 
 .footer__container {
     margin: 0 auto;
+    margin-bottom: 90px;
     width: 455px;
     display: flex;
     justify-content: space-between;
 }
 
 .footer__btn {
-    margin-bottom: 88px;
+    /* margin-bottom: 88px; */
     color: #FFF;
     font-size: 18px;
     line-height: normal;
@@ -36,15 +37,11 @@
 
 @media (max-width: 575px) {
     .footer {
-        padding: 44px;
+        padding: 40px 0;
     }
 
     .footer__container {
-        width: 400px;
-    }
-
-    .footer__btn {
-        margin-bottom: 60px;
+        margin-bottom: 65px;
     }
 
     .footer__text {
