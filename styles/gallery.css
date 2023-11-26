@@ -1,0 +1,131 @@
+.gallery {
+    margin-bottom: 150px;
+    /* height: 717px; */
+    position: relative;
+}
+
+.gallery__container {
+    width: 100%;
+    height: 717px;
+    display: none;
+    position: absolute;
+    color: #FFF;
+}
+
+.gallery__container-active {
+    display: block;
+}
+
+.gallery__span {
+    position: absolute;
+    top: 60px;
+    left: 145px;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+    text-transform: uppercase;
+}
+
+.gallery__title {
+    position: absolute;
+    left: 150px;
+    bottom: 60px;
+    width: 443px;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    line-height: normal;
+}
+
+.gallery__buttons {
+    z-index: 1;
+    position: absolute;
+    top: 514px;
+    left: 140px;
+    display: flex;
+    font-size: 70px;
+}
+
+.gallery__button-prev {
+    background: url('../image/button-left.svg');
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.gallery__button-next {
+    background: url('../image/button-right.svg');
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.gallery__forest {
+    background-image: url("../image/project.png");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__lighthouse {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+        url('../image/gallery-two.png');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__house {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+        url('../image/gallery-three.png');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__northern {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+        url('../image/gallery-four.png');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 961px) {
+    .gallery {
+        margin-bottom: 115px;
+    }
+
+    .gallery__container {
+        height: 536px;
+    }
+
+    .gallery__title {
+        bottom: 80px;
+        left: 35px;
+        width: 40%;
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 575px) {
+    .gallery {
+        margin-bottom: 120px;
+        background-position: 45%;
+    }
+
+    .gallery__container {
+        height: 610px;
+    }
+
+    .gallery__title {
+        left: 4px;
+        bottom: 89px;
+        width: 410px;
+        font-size: 30px;
+        letter-spacing: -1.7px;
+    }
+}
