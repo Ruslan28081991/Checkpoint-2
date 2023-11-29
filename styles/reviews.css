@@ -1,10 +1,10 @@
 .reviews {
-    margin-bottom: 130px;
+    margin-bottom: 120px;
+    color: #121212;
 }
 
 .reviews__title {
-    margin-bottom: 25px;
-    color: #121212;
+    margin-bottom: 30px;
     font-size: 18px;
     line-height: normal;
     letter-spacing: -0.54px;
@@ -25,7 +25,6 @@
 .reviews__box:last-child {
     flex: none;
     width: 75%;
-    color: #000;
 }
 
 .reviews__name {
@@ -75,7 +74,7 @@
         line-height: initial;
     }
 
-    .reviews__span {
+    .reviews__text-dop {
         font-size: 20px;
         line-height: initial;
     }

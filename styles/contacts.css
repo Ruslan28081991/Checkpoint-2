@@ -65,11 +65,11 @@
 
 @media (max-width: 961px) {
     .contacts {
-        margin-bottom: 55px;
+        margin-bottom: 95px;
     }
 
     .contacts__container {
-        width: 84%;
+        max-width: 84%;
     }
 
     .contact__phone {

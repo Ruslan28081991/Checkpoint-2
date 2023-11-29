@@ -2,12 +2,12 @@
     margin-bottom: 150px;
     padding: 150px 0;
     width: 100%;
-    background-color: var(--Text, #121212);
+    background-color: #121212;
+    color: #FFF;
 }
 
 .services__title {
-    margin-bottom: 35px;
-    color: #FFF;
+    margin-bottom: 30px;
     font-size: 18px;
     line-height: normal;
     letter-spacing: -0.54px;
@@ -15,11 +15,11 @@
 }
 
 .services__container {
-    margin-bottom: 100px;
+    margin-bottom: 105px;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 15px;
-    row-gap: 45px;
+    column-gap: 20px;
+    row-gap: 80px;
 }
 
 .service__box {
@@ -29,26 +29,23 @@
 
 .service__span {
     position: absolute;
-    top: 30px;
+    top: 35px;
     left: 30px;
     padding: 5px 20px;
     border-radius: 5px;
     background: #AD1818;
-    color: #FFF;
     font-size: 22px;
     line-height: normal;
     letter-spacing: -0.66px;
 }
 
 .service__img {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     width: 100%;
     height: 389px;
 }
 
 .service__text {
-    color: #FFF;
-    width: 50%;
     font-size: 30px;
     letter-spacing: -0.62px;
     line-height: 42px;
@@ -83,7 +80,7 @@
     }
 
     .services__container {
-        margin-bottom: 80px;
+        margin-bottom: 70px;
         row-gap: 85px;
     }
 

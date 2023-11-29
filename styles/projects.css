@@ -1,5 +1,6 @@
 .projects {
     margin-bottom: 150px;
+    color: #121212
 }
 
 .projects__title {
@@ -8,7 +9,7 @@
     line-height: normal;
     letter-spacing: -0.54px;
     text-transform: uppercase;
-    color: #121212
+
 }
 
 .project__container {
@@ -25,7 +26,6 @@
 .project__text {
     font-size: 30px;
     letter-spacing: -0.9px;
-    color: #121212;
 }
 
 .project__details {
@@ -55,7 +55,7 @@
 
 @media (max-width: 961px) {
     .projects {
-        margin-bottom: 105px;
+        margin-bottom: 100px;
     }
 
     .project__container {
