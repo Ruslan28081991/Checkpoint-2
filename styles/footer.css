@@ -7,7 +7,7 @@
 .footer__container {
     margin: 0 auto;
     margin-bottom: 90px;
-    width: 455px;
+    max-width: 455px;
     display: flex;
     justify-content: space-between;
 }
