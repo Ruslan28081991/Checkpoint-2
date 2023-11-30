@@ -50,18 +50,26 @@
 }
 
 @media (max-width: 575px) {
+    .about {
+        margin-bottom: 80px;
+    }
+
     .about__title {
-        font-size: 22px;
+        margin-bottom: 15px;
+        font-size: 14px;
     }
 
     .about__text {
-        margin-bottom: 45px;
-        line-height: 45px;
-        letter-spacing: -2.4px;
+        max-width: 345px;
+        font-size: 22px;
+        line-height: 30.2px;
+        letter-spacing: -0.66px;
     }
 
     .about__btn {
-        padding: 28px 42px;
-        font-size: 24px;
+        padding: 15px 28px;
+        font-size: 16px;
+        line-height: normal;
+        letter-spacing: -0.48px;
     }
 }

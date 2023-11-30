@@ -18,7 +18,7 @@
     <header>
         <div class="container">
             <nav class="nav">
-                <img class="nav__logo" src="image/Метрика.svg" alt="Логотип Метрика">
+                <img class="nav__logo" src="svg/metrika.svg" alt="Логотип Метрика">
                 <ul class="nav__container">
                     <li>
                         <a class="nav__btn" href="#about">о нас</a>
@@ -65,10 +65,10 @@
                     <picture>
                         <source 
                             media="(max-width: 575px)" 
-                            srcset="image/right-phone.png">
+                            srcset="image/right-bank-phone.png">
                         <img
                             class="project__img" 
-                            src="image/right.png" 
+                            src="image/right-bank.png" 
                             alt="ЖК ПРАВОБЕРЕЖНЫЙ">
                     </picture>
                     <h3 class="project__text">ЖК ПРАВОБЕРЕЖНЫЙ &#8212; 112 м² &#8212; 2023</h3>
@@ -78,10 +78,10 @@
                     <picture>
                         <source 
                             media="(max-width: 575px)" 
-                            srcset="image/left-phone.png">
+                            srcset="image/norwegian-park-phone.png">
                         <img
                             class="project__img" 
-                            src="image/left.png" 
+                            src="image/norwegian-park.png" 
                             alt="ЖК НОРВЕЖСКИЙ ПАРК">
                     </picture>
                     <h3 class="project__text">ЖК НОРВЕЖСКИЙ ПАРК &#8212; 75 м² &#8212; 2023</h3>
@@ -91,10 +91,10 @@
                     <picture>
                         <source 
                             media="(max-width: 575px)" 
-                            srcset="image/center-phone.png">
+                            srcset="image/pine-lakes-phone.png">
                         <img
                             class="project__img" 
-                            src="image/center.png" 
+                            src="image/pine-lakes.png" 
                             alt="ЖК СОСНОВСКИЕ ОЗЕРА">
                     </picture>
                     <h3 class="project__text">ЖК СОСНОВСКИЕ ОЗЕРА &#8212; 94 м² &#8212; 2022</h3>
@@ -106,61 +106,73 @@
         <section class="services">
             <div class="container">
                 <h2 id="services" class="services__title">услуги</h2>
-                    <ul class="services__container">
-                        <li class="service__box">
-                            <span class="service__span">от 2500₽/м²</span>
-                            <picture>
+                <ul class="services__container">
+                    <li class="service__box">
+                        <span class="service__span">от 2500₽/м²</span>
+                        <picture>
+                            <source 
+                                media="(max-width: 575px)" 
+                                srcset="image/drawing-phone.png">
+                            <source 
+                                media="(max-width: 961px)" 
+                                srcset="image/drawing-tablet.png">
+                            <img
+                                class="service__img" 
+                                src="image/drawing.png" 
+                                alt="Карандаш на бумаге">
+                        </picture>
+                        <h3 class="service__text">Планировочное решение</h3>
+                    </li>
+                    <li class="service__box">
+                        <span class="service__span">от 3000₽/м²</span>
+                        <picture>
+                            <source 
+                                media="(max-width: 575px)" 
+                                srcset="image/colors-phone.png">
                                 <source 
-                                    media="(max-width: 575px)" 
-                                    srcset="image/services-one-phone.png">
-                                <img
-                                    class="service__img" 
-                                    src="image/services-one-new.png" 
-                                    alt="Карандаш на бумаге">
-                            </picture>
-                            <h3 class="service__text">Планировочное решение</h3>
-                        </li>
-                        <li class="service__box">
-                            <span class="service__span">от 3000₽/м²</span>
-                            <picture>
+                                media="(max-width: 961px)" 
+                                srcset="image/colors-tablet.png">
+                            <img
+                                class="service__img" 
+                                src="image/colors.png" 
+                                alt="Палитра PANTONE">
+                        </picture>
+                        <h3 class="service__text">Дизайн-проект</h3>
+                    </li>
+                    <li class="service__box">
+                        <span class="service__span">от 30 000₽/мес</span>
+                        <picture>
+                            <source 
+                                media="(max-width: 575px)" 
+                                srcset="image/draftsman-phone.png">
+                            <source 
+                                media="(max-width: 961px)" 
+                                srcset="image/draftsman-tablet.png">
+                            <img
+                                class="service__img" 
+                                src="image/draftsman.png" 
+                                alt="Подготовка чертежа">
+                        </picture>
+                        <h3 class="service__text">Авторский надзор</h3>
+                    </li>
+                    <li class="service__box">
+                        <span class="service__span">5% от стоимости</span>
+                        <picture>
+                            <source 
+                                media="(max-width: 575px)" 
+                                srcset="image/stock-phone.png">
                                 <source 
-                                    media="(max-width: 575px)" 
-                                    srcset="image/services-two-phone.png">
-                                <img
-                                    class="service__img" 
-                                    src="image/services-two-new.png" 
-                                    alt="Палитра PANTONE">
-                            </picture>
-                            <h3 class="service__text">Дизайн-проект</h3>
-                        </li>
-                        <li class="service__box">
-                            <span class="service__span">от 30 000₽/мес</span>
-                            <picture>
-                                <source 
-                                    media="(max-width: 575px)" 
-                                    srcset="image/services-three-phone.png">
-                                <img
-                                    class="service__img" 
-                                    src="image/services-three-new.png" 
-                                    alt="Подготовка чертежа">
-                            </picture>
-                            <h3 class="service__text">Авторский надзор</h3>
-                        </li>
-                        <li class="service__box">
-                            <span class="service__span">5% от стоимости</span>
-                            <picture>
-                                <source 
-                                    media="(max-width: 575px)" 
-                                    srcset="image/services-four-phone.png">
-                                <img
-                                    class="service__img" 
-                                    src="image/services-four-new.png" 
-                                    alt="Паллеты на складе">
-                            </picture>
-                            <h3 class="service__text">Комплектация</h3>
-                        </li>
-                    </ul>
-                    <button class="service__btn">Заказать услугу</button>
+                                media="(max-width: 961px)" 
+                                srcset="image/stock-tablet.png">
+                            <img
+                                class="service__img" 
+                                src="image/stock.png" 
+                                alt="Паллеты на складе">
+                        </picture>
+                        <h3 class="service__text">Комплектация</h3>
+                    </li>
+                </ul>
+                <button class="service__btn">Заказать услугу</button>
             </div>   
         </section>
         <section class="reviews">
@@ -222,7 +234,15 @@
                 </div>
             </div>
             <div class="gallery__container gallery__container-active">
-                <img class="gallery__img" src="image/project.png" alt="Проект ЖК лесной пейзаж">
+                <picture>
+                    <source 
+                        media="(max-width: 575px)" 
+                        srcset="image/forest-phone.png">
+                    <img
+                        class="gallery__img" 
+                        src="image/forest.png" 
+                        alt="Проект ЖК лесной пейзаж">
+                </picture>
                 <div class="container">
                     <p class="gallery__title">
                         Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
@@ -230,7 +250,7 @@
                 </div>
             </div>
             <div class="gallery__container">
-                <img class="gallery__img" src="image/gallery-two.png" alt="Проект гостиной в ЖК Маяк">
+                <img class="gallery__img" src="image/lighthouse.png" alt="Проект гостиной в ЖК Маяк">
                 <div class="container">
                     <p class="gallery__title lighthouse">
                         Проект гостиной в ЖК Маяк
@@ -238,7 +258,7 @@
                 </div>
             </div>
             <div class="gallery__container">
-                <img class="gallery__img" src="image/gallery-three.png" alt="Визуализация кухни-гостиной в частном доме"> 
+                <img class="gallery__img" src="image/visualization.png" alt="Визуализация кухни-гостиной в частном доме"> 
                 <div class="container">
                     <p class="gallery__title">
                         Визуализация кухни-гостиной в частном доме
@@ -246,7 +266,7 @@
                 </div>
             </div>
             <div class="gallery__container">
-                <img class="gallery__img" src="image/gallery-four.png" alt="Проект кухни в скандинавском стиле для ЖК Северный Ветер">
+                <img class="gallery__img" src="image/project.png" alt="Проект кухни в скандинавском стиле для ЖК Северный Ветер">
                 <div class="container">
                     <p class="gallery__title">
                         Проект кухни в скандинавском стиле для ЖК Северный Ветер

@@ -71,28 +71,27 @@
 
     .reviews__text {
         font-size: 20px;
-        line-height: initial;
     }
 
     .reviews__text-dop {
         font-size: 20px;
-        line-height: initial;
     }
 }
 
 @media (max-width: 575px) {
     .reviews {
-        margin-bottom: 95px;
+        margin-bottom: 50px;
     }
 
     .reviews__title {
-        margin-bottom: 30px;
-        font-size: 22px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
     }
 
     .reviews__container {
         flex-direction: column;
-        gap: 85px;
+        gap: 45px;
     }
 
     .reviews__box {
@@ -100,16 +99,22 @@
     }
 
     .reviews__name {
-        margin-bottom: 15px;
-        font-size: 38px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        letter-spacing: -0.75px;
     }
 
     .reviews__text {
-        font-size: 24px;
+        margin-bottom: 23px;
+        max-width: 350px;
+        font-size: 16px;
+        letter-spacing: -0.48px;
     }
 
-    .reviews__span {
-        font-size: 24px;
+    .reviews__text-dop {
+        max-width: 350px;
+        font-size: 16px;
+        letter-spacing: -0.48px;
     }
 
     .reviews__box:last-child {
