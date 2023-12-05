@@ -1,0 +1,139 @@
+.popup {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.body__fixed {
+    overflow: hidden;
+}
+
+.popup__open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__container {
+    padding: 60px 0;
+    position: relative;
+    background: #FFF;
+    width: 777px;
+    max-height: 100%;
+    overflow-y: scroll;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: url("../svg/close.svg");
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.popup__title {
+    margin-bottom: 10px;
+    font-size: 45px;
+    letter-spacing: -1.35px;
+}
+
+.popup__text {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+}
+
+.popup__form {
+    padding: 20px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.popup__input {
+    color: #000;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: -0.75px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.popup__input:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+.popup__btn {
+    width: 644px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    background: #AD1818;
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+}
+
+@media (max-width: 961px) {
+    .popup__btn {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .popup__container {
+        padding: 80px 0 40px;
+        max-width: 100%;
+    }
+
+    .popup__close {
+        background: url("../svg/close-phone.svg");
+        width: 30px;
+        height: 30px;
+    }
+
+    .popup__title {
+        font-size: 25px;
+        letter-spacing: -0.75px;
+    }
+
+    .popup__text {
+        margin-bottom: 10px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+    .popup__form {
+        gap: 30px;
+    }
+
+    .popup__input {
+        font-size: 18px;
+        letter-spacing: -0.54px;
+    }
+
+    .popup__btn {
+        padding: 20px 40px;
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+}

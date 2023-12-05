@@ -38,6 +38,11 @@
     transform: rotate(180deg);
 }
 
+.gallery__button-prev:hover,
+.gallery__button-next:hover {
+    opacity: 0.5;
+}
+
 .gallery__container {
     width: 100%;
     height: 100%;
@@ -66,7 +71,7 @@
 }
 
 .lighthouse {
-    bottom: 100px;
+    bottom: 103px;
 }
 
 @media (max-width: 961px) {
