@@ -5,17 +5,13 @@
     width: 100%;
     height: 100%;
     color: #000;
-    z-index: 11;
+    z-index: 21;
     display: flex;
     justify-content: end;
     background-color: rgba(0, 0, 0, 0.7);
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease;
-}
-
-.body__fixed {
-    overflow: hidden;
 }
 
 .burger__open {
