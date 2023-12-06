@@ -33,9 +33,47 @@
                         <a class="nav__btn" href="#contacts">контакты</a>
                     </li> 
                 </ul>
+                <div class="burger__button"></div>
             </nav>
+            
         </div>
     </header>
+    <nav class="burger">
+        <div class="burger__container">
+            <div class="container">
+                <img class="burger__logo" src="svg/metrika.svg" alt="Логотип Метрика">
+                <ul class="burger__menu">
+                    <li>
+                        <a class="burger__btn" href="#about">о нас</a>
+                    </li>
+                    <li>
+                        <a class="burger__btn" href="#projects">проекты</a>
+                    </li>
+                    <li>
+                        <a class="burger__btn" href="#services">услуги</a>
+                    </li>
+                    <li>
+                        <a class="burger__btn" href="#contacts">контакты</a>
+                    </li>
+                </ul>
+                <p class="burger__title">для связи</p>
+                <ul class="burger__contacts">
+                    <li>
+                        <a class="burger__text" 
+                            href="tel:+79358954535">
+                            +7 935 895-45-35
+                        </a>
+                    </li>
+                    <li>
+                        <a class="burger__text" 
+                            href="mailto:hello@mail.com">
+                            hello@mail.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <main>
         <section class="interior">
             <div class="container">
@@ -177,7 +215,7 @@
                         <div class="popup__close"></div>
                         <h4 class="popup__title">Заказать услугу</h4>
                         <p class="popup__text">Заполните форму, мы свяжемся с вами в течении суток</p>
-                        <form class="popup__form" action="">
+                        <form class="popup__form">
                             <input class="popup__input" type="text" placeholder="Имя">
                             <input class="popup__input" type="email" placeholder="Электронная почта">
                             <input class="popup__input" type="number" placeholder="Номер телефона">
@@ -185,7 +223,6 @@
                         </form>
                     </div>
                 </div>
-                <!-- <div class="service__fixed"></div> -->
                 <button class="service__btn">Заказать услугу</button>
             </div>   
         </section>
@@ -322,7 +359,8 @@
         </div>
     </footer>
 
-    <script src="gallery.js"></script>
+    <script src="burger.js"></script>
     <script src="popup.js"></script>
+    <script src="gallery.js"></script>
 </body>
 </html>

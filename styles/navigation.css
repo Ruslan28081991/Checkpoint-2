@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .nav__container {
@@ -26,6 +27,20 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
+.burger__button {
+    display: none;
+    position: absolute;
+    top: -2px;
+    right: 0px;
+    z-index: 15;
+    background: url("../svg/burger.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+}
+
 @media (max-width: 961px) {
     .nav {
         margin: 30px 0 75px;
@@ -38,6 +53,18 @@
     .nav__container {
         display: none;
     }
+
+    .burger__button {
+        display: block;
+    }
+
+    .burger-btn__open {
+        background: url("../svg/close-phone.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -47,5 +74,15 @@
 
     .nav__logo {
         width: 95px;
+    }
+
+    .burger__button {
+        height: 30px;
+        width: 40px;
+    }
+
+    .burger-btn__open {
+        width: 30px;
+        height: 30px;
     }
 }
