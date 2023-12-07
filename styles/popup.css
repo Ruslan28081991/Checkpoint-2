@@ -15,10 +15,6 @@
     transition: opacity 0.3s ease;
 }
 
-.body__fixed {
-    overflow: hidden;
-}
-
 .popup__open {
     opacity: 1;
     visibility: visible;
